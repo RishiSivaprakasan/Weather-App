@@ -1,68 +1,54 @@
-Weather App
+# Weather App
 
 A simple weather application that fetches real-time weather data using the OpenWeather API. It displays the weather conditions of top cities on page load and allows users to search for the weather of any city.
 
-Features
+## Features
 
-Displays weather for top cities on page load.
+- Displays weather for top cities on page load.
+- Search for any city to get real-time weather updates.
+- Displays temperature, humidity, wind speed, and weather icons.
+- Smooth UI with animations and responsive design.
 
-Search for any city to get real-time weather updates.
+## Technologies Used
 
-Displays temperature, humidity, wind speed, and weather icons.
+- HTML
+- CSS
+- JavaScript
+- OpenWeather API
+- Font Awesome for icons
 
-Smooth UI with animations and responsive design.
+## Installation
 
-Technologies Used
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/weather-app.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd weather-app
+   ```
+3. Open `index.html` in your browser.
 
-HTML
+## Usage
 
-CSS
+1. On page load, the weather of predefined top cities is displayed.
+2. Enter a city name in the search bar and press enter or click the search button.
+3. Weather details of the searched city will be displayed.
 
-JavaScript
+## API Configuration
 
-OpenWeather API
+- This project uses OpenWeather API.
+- Replace the `apiKey` in `script.js` with your OpenWeather API key:
+  ```js
+  const apiKey = "YOUR_API_KEY";
+  ```
+- If you don't have an API key, get one from [OpenWeather](https://openweathermap.org/).
 
-Font Awesome for icons
+## Screenshots
 
-Installation
+![Weather App Screenshot](https://github.com/RishiSivaprakasan/Weather-App/blob/main/Weather%20App/images/Screenshot%20(1).png)
 
-Clone the repository:
+## Author
 
-git clone https://github.com/your-username/weather-app.git
-
-Navigate to the project folder:
-
-cd weather-app
-
-Open index.html in your browser.
-
-Usage
-
-On page load, the weather of predefined top cities is displayed.
-
-Enter a city name in the search bar and press enter or click the search button.
-
-Weather details of the searched city will be displayed.
-
-API Configuration
-
-This project uses OpenWeather API.
-
-Replace the apiKey in script.js with your OpenWeather API key:
-
-const apiKey = "YOUR_API_KEY";
-
-If you don't have an API key, get one from OpenWeather.
-
-Screenshots
-
-
-
-License
-
-This project is open-source and available under the MIT License.
-
-Author
-
-Your Name
+[Rishi Sivaprakasan](https://github.com/RishiSivaprakasan)
 
